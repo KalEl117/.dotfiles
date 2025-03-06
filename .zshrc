@@ -10,6 +10,7 @@ fi
 alias ls='ls --color=auto'
 alias ll='ls -al'
 alias ff='fastfetch'
+alias c='clear'
 alias ping='ping -c3'
 alias grep='grep --color=auto'
 eval "$(zoxide init zsh)"
