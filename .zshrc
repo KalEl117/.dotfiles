@@ -12,6 +12,7 @@ alias ll='ls -al'
 alias ff='fastfetch'
 alias c='clear'
 alias ping='ping -c3'
+alias v='nvim'
 alias grep='grep --color=auto'
 eval "$(zoxide init zsh)"
 
