@@ -15,6 +15,12 @@ alias ping='ping -c3'
 alias grep='grep --color=auto'
 eval "$(zoxide init zsh)"
 
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+
+setopt SHARE_HISTORY
+
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
 	yazi "$@" --cwd-file="$tmp"
