@@ -6,15 +6,15 @@ This directory contains the dotfiles for my system
 
 Ensure you have the following installed on you system
 
-### Git
+### Stow Git
 
 ```
-pacman -S stow
+pacman -Sy stow git
 ```
 
 ## Installation
 
-First, chek out the dotfiles repo in you $HOME directory using git
+First, check out the dotfiles repo in you $HOME directory using git
 
 ```
 $ git clone https://github.com/KalEl117/dotfiles.git
