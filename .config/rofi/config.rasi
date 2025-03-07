@@ -1,0 +1,11 @@
+@import "catppuccin-mocha"
+
+@theme "catppuccin-default"
+
+configuration {
+    show-icons: true;
+    font: "Cascadiacode 12";
+    modi: "drun,run,window";
+    lines: 10;
+}
+
