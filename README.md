@@ -17,7 +17,7 @@ pacman -Sy stow git
 First, check out the dotfiles repo in you $HOME directory using git
 
 ```
-$ git clone https://github.com/KalEl117/dotfiles.git
+$ git clone https://github.com/KalEl117/.dotfiles.git
 $ cd dotfiles
 ```
 
