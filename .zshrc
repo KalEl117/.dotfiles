@@ -15,6 +15,7 @@ alias v='nvim'
 alias hypr='nvim ~/.config/hypr/hyprland.conf'
 alias c='clear'
 alias ping='ping -c3'
+alias v='nvim'
 alias grep='grep --color=auto'
 eval "$(zoxide init zsh)"
 
