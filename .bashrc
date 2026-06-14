@@ -10,12 +10,12 @@ alias ll='ls -al'
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
 alias ff='fastfetch'
-alias up='sudo pacman -Syu'
+alias nrs='sudo nixos-rebuild switch'
 alias v='nvim'
+alias gitupdate='~/.dotfiles/sync_dotfiles.sh'
 alias ping='ping -c3'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
-eval "$(zoxide init bash)"
+PS1="\[\e[1;36m\]╭─ \[\e[1;34m\]\w \[\e[0m\]\n\[\e[1;36m\]╰─\[\e[1;32m\]❯ \[\e[0m\]"
 
 HISTFILE=~/.bash_history
 HISTSIZE=10000
@@ -34,7 +34,6 @@ function y() {
 	fi
 	rm -f -- "$tmp"
 }
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
+eval "$(zoxide init bash)"
