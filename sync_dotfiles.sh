@@ -5,7 +5,7 @@
 REPO_DIR="$HOME/.dotfiles"
 
 # Liste der Ordner aus ~/.config, die du sichern möchtest
-CONFIG_FOLDERS=("hypr" "waybar" "kitty")
+CONFIG_FOLDERS=(btop fastfetch hypr kitty mako nvim nwg-look rofi swappy Thunar waybar yazi)
 # ---------------------
 
 echo "🔄 Starte Dotfiles-Synchronisation..."
