@@ -1,8 +1,9 @@
 {
     "custom/arch": {
-        "format": "󰣇",
+        "format": "󱄅",
         "tooltip": true,
-        "tooltip-format": "btw"
+        "tooltip-format": "btw",
+    "on-click": "rofi -show drun"
     },
 
 
@@ -40,20 +41,21 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "GTK_THEME=Adwaita:dark pavucontrol"
     },
-    "network": {
-        "format-wifi": "   {essid} ({signalStrength}%)",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-	"on-click": "sh ~/scripts/rofi-wifi-menu/rofi-wifi-menu.sh"
-	 
-    },
+	//    "network": {
+	//        "format-wifi": "   {essid} ({signalStrength}%)",
+	//        "format-ethernet": "{ipaddr}/{cidr} ",
+	//        "tooltip-format": "{ifname} via {gwaddr} ",
+	//        "format-linked": "{ifname} (No IP) ",
+	//        "format-disconnected": "Disconnected ⚠",
+	// "on-click": "sh ~/scripts/rofi-wifi-menu/rofi-wifi-menu.sh"
+	//
+	//    },
     "cpu": {
         "format": "  {usage}%",
-        "tooltip": true
+        "tooltip": true,
+        "on-click": "kitty -e btop"
     },
     "memory": {
         "format": "  {}%",

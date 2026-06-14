@@ -4,8 +4,26 @@
 
 configuration {
     show-icons: true;
-    font: "Cascadiacode 12";
+    font: "Caskaydia Cove Nerd Font 16";
+    disable-history: true;
+    sort: true;
+    // sorting-method: "name";
     modi: "drun,run,window";
-    lines: 10;
+    display-drun: "Apps";
 }
 
+window {
+    width: 30%;
+    anchor: center;
+    location: center;
+    border: 2px;
+    padding: 10px;
+  }
+
+listview {
+    line: 10;
+    columns: 1;
+    fixed-height: 0;
+    scrollbar: false;
+    spacing: 5px;
+  }
