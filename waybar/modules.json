@@ -1,6 +1,6 @@
 {
-    "custom/arch": {
-        "format": "󰣇",
+    "custom/nixos": {
+        "format": "󱄅",
         "tooltip": true,
         "tooltip-format": "btw",
     "on-click": "rofi -show drun"
